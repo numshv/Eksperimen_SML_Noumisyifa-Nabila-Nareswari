@@ -24,7 +24,7 @@ jobs:
           pip install pandas numpy scikit-learn
 
       - name: Run preprocessing script
-        run: python preprocessing/automate_<nama>.py
+        run: python preprocessing/automate_Noumisyifa-Nabila-Nareswari.py
 
       - name: Commit and push preprocessed data
         run: |
